@@ -12,7 +12,7 @@ function checkLogin() {
     const message = document.getElementById("loginMessage");
 
     if (username === "CodenameLise" && password === "stella123") {
-        window.location.href = "MyLove.html";
+        window.location.href = "https://8892a.github.io/Valentine/MyLove.html";
     } else if (message) {
         const hints = ["Try again my love", "Not quite!"];
         message.innerText = hints[Math.floor(Math.random() * hints.length)];
@@ -77,4 +77,5 @@ function sayYes() {
 function goNext() {
     window.location.href = "Bri.html";
 }
+
 
