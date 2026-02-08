@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #ffeef3, #ffd6e8);
+}
+
+h1 {
+    text-align: center;
+    background-color: #ffccd9;
+    color: #b3003b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(255,77,136,0.3);
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 28px;
+    color: #b3003b;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #b3003b;
+    margin-bottom: 3px;
+}
+
+footer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff4d88;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.border, .gallery-border {
+    background: linear-gradient(145deg, #fff, #ffe6f0);
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 45px;
+    border-radius: 30px;
+    box-shadow: 0 15px 40px rgba(255,77,136,0.25);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.border::before,
+.gallery-border::before {
+    content: "💖 💕 💗";
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.border::after,
+.gallery-border::after {
+    content: "✨ ✨";
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-size: 18px;
+    opacity: 0.25;
+}
+
+
+input {
+    width: 65%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid #ffc2d6;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff6ca1;
+    box-shadow: 0 0 10px rgba(255,105,180,0.4);
+}
+
+button {
+    background: linear-gradient(to right, #ff6ca1, #ff3385);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255,77,136,0.4);
+}
+
+button:hover {
+    transform: scale(1.05) rotate(-1deg);
+    box-shadow: 0 8px 20px rgba(255,77,136,0.5);
+}
+
+button:active {
+    transform: scale(0.95) rotate(1deg);
+}
+
+#coupon {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#coupon h2 {
+    color: #b3003b;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+#claim {
+    margin-top: 10px;
+}
+
+.coupon-box {
+    margin: 25px auto;
+    padding: 25px;
+    width: 260px;
+    background: #fff0f6;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(255,77,136,0.25);
+    border: 2px dashed #ff6ca1;
+    animation: fadePop 0.4s ease;
+}
+
+.coupon-box h3 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.coupon-box h2 {
+    margin: 10px 0;
+    color: #ff3385;
+}
+
+.coupon-box p {
+    font-size: 14px;
+    color: #b3003b;
+}
+
+@keyframes fadePop {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.coupon-box {
+    margin: 25px auto;
+    padding: 25px 20px;
+    width: 260px;
+    background: lightgoldenrodyellow;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(255,77,136,0.25);
+    text-align: center;
+    position: relative;
+    animation: popIn 0.4s ease;
+}
+
+.coupon-box h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 26px;
+    margin: 0;
+    color: #ff3385;
+}
+
+
+.section {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.section::before {
+    content: "💖 💕 💗";
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.section::after {
+    content: "✨ ✨";
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 18px;
+    opacity: 0.3;
+}
+
+#response {
+    margin-top: 15px;
+    color: #ff4d88;
+    font-weight: 500;
+    font-size: 14px;
+}
+
