@@ -126,7 +126,6 @@ button:active {
     margin-top: 10px;
 }
 
-/* Coupon card */
 .coupon-box {
     margin: 25px auto;
     padding: 25px;
@@ -179,14 +178,12 @@ button:active {
 
 
 .section {
-    text-align: center;      /* centers text + button */
+    text-align: center; 
     display: flex;
     flex-direction: column;
-    align-items: center;     /* centers coupon card horizontally */
+    align-items: center;  
 }
 
-
-/* floating background hearts */
 .section::before {
     content: "💖 💕 💗";
     position: absolute;
